@@ -75,8 +75,9 @@ export default function Footer() {
 
             <Link href={`/wmd`}>Web 3.0 and Metaverse </Link>
             <Link href={`/ai`}>Artificial Intelligence and Deep Learning</Link>
-            <Link href={`/cdn`}>Cloud-Native Computing</Link>
-            <Link href={`/iot`}>Ambient Computing and IoT</Link>
+            <Link href={`/cnac`}>Cloud-Native Computing</Link>
+            <Link href={`/aciot`}>Ambient Computing and IoT</Link>
+            <Link href={`/gb`}>Genomics and Bioinformatics</Link>
           </VStack>
         </Box>
       </Flex>

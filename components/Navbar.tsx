@@ -30,7 +30,7 @@ export default function Navbar() {
         />
         <Spacer />
         <Flex display={["none", "none", "flex", "flex"]} justifySelf="right">
-          <Link href={"/Home"}>
+          <Link href={"/"}>
             <Button m={4}>
               <Text>Home</Text>{" "}
             </Button>
@@ -82,7 +82,7 @@ export default function Navbar() {
             fontSize={["lg"]}
             fontWeight="600"
           >
-            <Link href={"/Home"}>Home</Link>
+            <Link href={"/"}>Home</Link>
             <Link href={"/About"}> About</Link>
             <Link href={"/Services"}> Services</Link>
           </Flex>

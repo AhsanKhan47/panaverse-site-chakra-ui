@@ -30,13 +30,13 @@ export default function Q5() {
           m="auto"
         >
           <Heading>Quarter V</Heading>
-          <Heading fontSize={"2xl"}>
+          <Heading fontSize={"2xl"} my={8} w="90%">
             MV-361: Developing Planet-Scale Open Virtual and Augmented Metaverse
             Experiences
           </Heading>
-          <Text>Duration: 13 Weeks</Text>
-          <Text>Course Description:</Text>
-          <Text w={["90%", "90%", "80%"]}>
+          <Text fontWeight={600}>Duration: 13 Weeks</Text>
+          <Text fontWeight={600}>Course Description:</Text>
+          <Text w={["90%", "90%", "90%"]} my={4}>
             The Web is the Metaverse. The metaverse requires an infrastructure
             that connects all of the metaverses so that we can travel between
             them. This is only achievable with open web-based metaverses. The
@@ -53,8 +53,7 @@ export default function Q5() {
           <OrderedList>
             <ListItem color="blue.600">
               <Link
-                href="https://github.com/panaverse/metaverse-web
-                "
+                href="https://github.com/panaverse/metaverse-web"
                 textDecor="underline"
                 fontWeight={700}
                 color="blue.600"
@@ -63,7 +62,7 @@ export default function Q5() {
                 Open Metaverse Web Development
               </Link>{" "}
             </ListItem>
-            <ListItem>
+            <ListItem my={4}>
               Blender 3D asset Creation for the Metaverse (Remote Zoom Class){" "}
               <br />
               Blender development is being funded by heavyweights in the
@@ -73,86 +72,112 @@ export default function Q5() {
               <br />
               Blender 3.3+ Download <br />
               Blender 3.0 Beginner Tutorial{" "}
-              <Link href="https://www.blender.org/download/">
+              <Link color="blue.600" href="https://www.blender.org/download/">
                 https://www.blender.org/download/
               </Link>{" "}
               <br />
-              <Link href="https://www.youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD">
+              <Link
+                color="blue.600"
+                href="https://www.youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD"
+              >
                 https://www.youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD
               </Link>{" "}
               <br />
               Blender 3.0 Hotkey{" "}
-              <Link href="https://docs.google.com/document/d/1zPBgZAdftWa6WVa7UIFUqW_7EcqOYE0X743RqFuJL3o/edit">
+              <Link
+                color="blue.600"
+                href="https://docs.google.com/document/d/1zPBgZAdftWa6WVa7UIFUqW_7EcqOYE0X743RqFuJL3o/edit"
+              >
                 https://docs.google.com/document/d/1zPBgZAdftWa6WVa7UIFUqW_7EcqOYE0X743RqFuJL3o/edit
               </Link>
               <br />
               Blender Projects Textbook: Blender by Example 2nd Edition{" "}
-              <Link href="https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561">
+              <Link
+                color="blue.600"
+                href="https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561"
+              >
                 https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561
               </Link>{" "}
               <br />
               Blender Textbook: The Complete Guide to Blender Graphics: Computer
               Modeling & Animation 7th Edition by John M. Blain{" "}
-              <Link href="https://www.amazon.com/Complete-Guide-Blender-Graphics-Animation/dp/103212167X/ref=sr_1_5">
+              <Link
+                color="blue.600"
+                href="https://www.amazon.com/Complete-Guide-Blender-Graphics-Animation/dp/103212167X/ref=sr_1_5"
+              >
                 https://www.amazon.com/Complete-Guide-Blender-Graphics-Animation/dp/103212167X/ref=sr_1_5
               </Link>{" "}
               <br />
               Best Hardware Performance for Blender Rendering{" "}
-              <Link href="https://www.youtube.com/watch?v=H7T0SzdFHwg">
+              <Link
+                color="blue.600"
+                href="https://www.youtube.com/watch?v=H7T0SzdFHwg"
+              >
                 https://www.youtube.com/watch?v=H7T0SzdFHwg
               </Link>
               <br />
             </ListItem>
-            <Heading>Assignments</Heading>
-            <ListItem>
+            <Heading my={24}>Assignments</Heading>
+            <ListItem my={4}>
               Build a Viking Scene using Blender 3 as shown in chapter 2 of the
               Book [Blender by Example 2nd Edition] <br />
-              <Link href="https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561">
+              <Link
+                color="blue.600"
+                href="https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561"
+              >
                 https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561s
               </Link>
             </ListItem>{" "}
-            <ListItem>
+            <ListItem my={4}>
               Modeling a Time Machine using Blender 3 as shown in chapters 3 and
               4 of the Book Blender by Example 2nd Edition <br />
-              <Link href="https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561">
+              <Link
+                color="blue.600"
+                href="https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561"
+              >
                 https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561{" "}
               </Link>
             </ListItem>{" "}
-            <ListItem>
+            <ListItem my={4}>
               Build a Modern Kitchen using Blender 3 as shown in chapters 5, 6,
               and 7 of the Book Blender by Example 2nd Edition <br />
-              <Link href="https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561">
+              <Link
+                color="blue.600"
+                href="https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561"
+              >
                 https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561
               </Link>
             </ListItem>{" "}
-            <ListItem>
+            <ListItem my={4}>
               Illustrating an Alien Hero with Grease Pencil as shown in chapter
               8 of the Book Blender by Example 2nd Edition <br />
-              <Link href="https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561">
+              <Link
+                color="blue.600"
+                href="https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561"
+              >
                 https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561
               </Link>
             </ListItem>{" "}
-            <ListItem>
+            <ListItem my={4}>
               Build a 3D Sword in the Stone using Blender 3 as shown in these
               video tutorials <br />
-              <Link href="https://www.youtube.com/watch?v=bpvh-9H8S1g">
+              <Link
+                color="blue.600"
+                href="https://www.youtube.com/watch?v=bpvh-9H8S1g"
+              >
                 https://www.youtube.com/watch?v=bpvh-9H8S1g
               </Link>
             </ListItem>{" "}
-            <ListItem>
+            <ListItem my={4}>
               Build a Viking Scene using Blender 3 as shown in chapter 2 of the
               Book [Blender by Example 2nd Edition] <br />
-              <Link href="https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561">
+              <Link
+                color="blue.600"
+                href="https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561"
+              >
                 https://www.packtpub.com/product/blender-3d-by-example-second-edition/9781789612561s
               </Link>
             </ListItem>
-            <Link
-              color="blue.600"
-              href="https://docs.google.com/document/d/13Z4tMKQmZpMEsOc1Y_qAXbOstRolGIFupHxQFgAFl98/edit"
-            >
-              {" "}
-              <Button> View more</Button>{" "}
-            </Link>
           </OrderedList>
         </Flex>
       </Box>
