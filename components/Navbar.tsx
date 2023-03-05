@@ -1,7 +1,5 @@
 import React from "react";
 import {
-  useColorMode,
-  Switch,
   Flex,
   Button,
   IconButton,
@@ -13,6 +11,7 @@ import {
   Collapse,
   useDisclosure,
 } from "@chakra-ui/react";
+import { ScaleFade, Slide, SlideFade } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { useState } from "react";
 import Image from "next/image";
@@ -30,23 +29,28 @@ export default function Navbar() {
         />
         <Spacer />
         <Flex display={["none", "none", "flex", "flex"]} justifySelf="right">
-          <Link href={"/"}>
-            <Button m={4}>
-              <Text>Home</Text>{" "}
-            </Button>
+          <Link _hover={{ color: "green.500" }} href={"/"}>
+            <Button m={4}>Home</Button>
           </Link>
-          <Link href={"/About"}>
+          <Link _hover={{ color: "green.500" }} href={"#aboutProgram"}>
             {" "}
             <Button m={4}>
               {" "}
-              <Text>About</Text>
+              <Text>About Program</Text>
             </Button>
           </Link>
-          <Link href={"/Services"}>
+          {/* <Link _hover={{ color: "green.500" }} href={"#aboutProgram"}>
             {" "}
             <Button m={4}>
               {" "}
-              <Text>Service</Text>
+              <Text>Courses</Text>
+            </Button>
+          </Link> */}
+          <Link _hover={{ color: "green.500" }} href="#Syllabus">
+            {" "}
+            <Button m={4}>
+              {" "}
+              <Text>Syllabus</Text>
             </Button>
           </Link>
         </Flex>
@@ -54,39 +58,54 @@ export default function Navbar() {
           onClick={onToggle}
           aria-label="Open Menu"
           icon={<HamburgerIcon />}
+          position="static"
           size="lg"
           mr={2}
           display={["flex", "flex", "none", "none"]}
           // onClick={() => setMenuDisplay("flex")}
           pos="absolute"
-          top="5"
+          top="2"
           right="4"
-          zIndex={50}
+          zIndex={100}
         />
         {/* Mobile nav */}
-        <Collapse in={isOpen} animateOpacity>
-          <Flex
-            pos="fixed"
-            top="0"
-            left="0"
-            align={"center"}
-            flexDir="column"
-            justify="center"
-            overflowY="auto"
-            height="110vh"
-            width="100vw"
-            gap={12}
-            mt="-6rem"
-            zIndex={30}
-            bgColor="red.400"
-            fontSize={["lg"]}
-            fontWeight="600"
-          >
-            <Link href={"/"}>Home</Link>
-            <Link href={"/About"}> About</Link>
-            <Link href={"/Services"}> Services</Link>
-          </Flex>
-        </Collapse>
+        <Box zIndex={90}>
+          <Slide in={isOpen}>
+            <Flex
+              pos="fixed"
+              top="0"
+              left="0"
+              align={"center"}
+              flexDir="column"
+              justify="center"
+              overflowY="auto"
+              height="110vh"
+              width="100vw"
+              gap={12}
+              mt="-6rem"
+              zIndex={90}
+              bgColor="red.400"
+              fontSize={["lg"]}
+              fontWeight="600"
+            >
+              <Link _hover={{ color: "green.500" }} href={"/"}>
+                Home
+              </Link>
+              <Link _hover={{ color: "green.500" }} href={"#aboutProgram"}>
+                {" "}
+                About Program
+              </Link>
+              <Link
+                _hover={{ color: "green.500" }}
+                href="#Syllabus"
+                onClick={onToggle}
+              >
+                {" "}
+                Syllabus
+              </Link>
+            </Flex>
+          </Slide>
+        </Box>
       </Flex>
     </Box>
   );

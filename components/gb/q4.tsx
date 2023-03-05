@@ -19,20 +19,19 @@ import {
 export default function Q4() {
   return (
     <>
-      <Box m="auto" py="2rem">
+      <Box w="100%" m="auto" py="2rem">
         <Flex
           fontSize="xl"
           minH="80vh"
           flexDir="column"
           justify="space-around"
           align="start"
-          w="90%"
-          m="auto"
+          w="100%"
         >
           <Heading>Quarter IV</Heading>
           <Heading fontSize={"2xl"}>Bio-351: Python for Biologists</Heading>
           <Text>Course Description:</Text>
-          <Text w={["90%", "90%", "80%"]}>
+          <Text w={["100%", "100%", "80%"]} fontSize={["md", "lg", "xl"]}>
             This course will focus on learning the basics of the Python
             programming language through genomics examples.
             <br />

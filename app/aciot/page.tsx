@@ -9,16 +9,26 @@ import Q5 from "@/components/aciot/q5";
 export default function Ai() {
   return (
     <>
-      <Tabs w="90%" m="auto">
+      <Tabs w="100%" m="auto">
         <TabList>
-          <Tab>Quarter 1</Tab>
-          <Tab>Quarter 2</Tab>
-          <Tab>Quarter 3</Tab>
-          <Tab>Quarter 4</Tab>
-          <Tab>Quarter 5</Tab>
+          <Tab fontSize={["12px", "19px"]} p={["9px", "1rem"]}>
+            Quarter 1
+          </Tab>
+          <Tab fontSize={["12px", "19px"]} p={["9px", "1rem"]}>
+            Quarter 2
+          </Tab>
+          <Tab fontSize={["12px", "19px"]} p={["9px", "1rem"]}>
+            Quarter 3
+          </Tab>
+          <Tab fontSize={["12px", "19px"]} p={["9px", "1rem"]}>
+            Quarter 4
+          </Tab>
+          <Tab fontSize={["12px", "19px"]} p={["9px", "1rem"]}>
+            Quarter 5
+          </Tab>
         </TabList>
 
-        <TabPanels>
+        <TabPanels w="40%">
           <TabPanel>
             <Q1 />
           </TabPanel>

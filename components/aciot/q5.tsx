@@ -20,15 +20,14 @@ import {
 export default function Q5() {
   return (
     <>
-      <Box m="auto" py="2rem">
+      <Box w="100%" m="auto" py="2rem">
         <Flex
           fontSize="xl"
           minH="80vh"
           flexDir="column"
           justify="space-around"
           align="start"
-          w="90%"
-          m="auto"
+          w="100%"
         >
           <Heading>Quarter V</Heading>
           <Heading fontSize={"2xl"} my={8} w="90%">
@@ -36,7 +35,11 @@ export default function Q5() {
           </Heading>
           <Text fontWeight={600}>Duration: 13 Weeks</Text>
           <Text fontWeight={600}>Course Description:</Text>
-          <Text w={["90%", "90%", "90%"]} my={4}>
+          <Text
+            w={["100%", "100%", "80%"]}
+            fontSize={["md", "lg", "xl"]}
+            my={4}
+          >
             This is an introductory course about using the C and Rust
             Programming Languages on "Bare Metal" embedded systems, such as
             Microcontrollers. We will start by introducing embedded systems and
@@ -49,7 +52,7 @@ export default function Q5() {
             with GPIOs, and making things that work in no time.
           </Text>
           <Text>Course outline</Text>
-          <OrderedList>
+          <OrderedList fontSize={["md", "lg", "xl"]}>
             <ListItem color="blue.600">
               Introduction to the Internet of Things and Embedded Systems (Weeks
               1 and 2)

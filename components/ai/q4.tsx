@@ -19,22 +19,21 @@ import {
 export default function Q4() {
   return (
     <>
-      <Box m="auto" py="2rem">
+      <Box w="100%" m="auto" py="2rem">
         <Flex
           fontSize="xl"
           minH="80vh"
           flexDir="column"
           justify="space-around"
           align="start"
-          w="90%"
-          m="auto"
+          w="100%"
         >
           <Heading>Quarter IV</Heading>
           <Heading fontSize={"2xl"}>
             W3-351: Developing Smart Contracts and Planet-Scale Web 3.0 Dapps
           </Heading>
           <Text>Course Description:</Text>
-          <Text w={["90%", "90%", "80%"]}>
+          <Text w={["100%", "100%", "80%"]} fontSize={["md", "lg", "xl"]}>
             In this course you will learn how to develop Web 3.0 DApps, create a
             project, deploy it in production, write smart contracts, unit test
             them, and create user interfaces for them. We will also learn to
@@ -44,7 +43,7 @@ export default function Q4() {
             previous quarters.
           </Text>
           <Text>Course outline</Text>
-          <OrderedList>
+          <OrderedList fontSize={["md", "lg", "xl"]}>
             <ListItem color="blue.600">
               <Link
                 href="https://www.amazon.com/Metaverse-How-Will-Revolutionize-Everything/dp/1324092033/ref=tmm_hrd_swatch_0 

@@ -21,20 +21,25 @@ import {
 export default function Q2() {
   return (
     <>
-      <Box m="auto" py="2rem">
+      <Box m="auto" py="2rem" w="100%">
         <Flex
-          fontSize="xl"
+          fontSize={["sm", "lg", "xl"]}
           flexDir="column"
           justify="space-between"
           align="start"
           w="90%"
           m="auto"
         >
-          <Heading>Quarter II (Core)</Heading>
+          <Heading
+            fontSize={["lg", "2xl", "2xl", "2xl"]}
+            my={[".5rem", "1rem", "1rem", "2rem"]}
+          >
+            Quarter II (Core)
+          </Heading>
           <Text
             fontWeight={600}
             my="2rem"
-            fontSize={"2xl"}
+            fontSize={["lg", "2xl", "2xl", "2xl"]}
             w={["90%", "90%", "80%"]}
           >
             W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Apps and
@@ -53,24 +58,19 @@ export default function Q2() {
             for Terraform (CDKTF).
           </Text>
           <Text>Course outline :</Text>
-          <OrderedList my="1rem">
+          <OrderedList my="1rem" fontSize={["sm", "lg", "xl"]}>
             <ListItem color="blue.600">
               <Link
                 href="https://www.youtube.com/playlist?list=PLKvqnz8z1zWQSWIen_zUSEBmtqzPLuRob"
                 textDecor="underline"
                 fontWeight={700}
                 color="blue.600"
-                fontSize={["xl"]}
               >
                 Next.js 13 Web Development
               </Link>{" "}
               (Homework)
             </ListItem>
-            <Link
-              href="https://chakra-ui.com/getting-started"
-              color="blue.600"
-              fontSize={["xl"]}
-            >
+            <Link href="https://chakra-ui.com/getting-started" color="blue.600">
               <ListItem>
                 {" "}
                 Next.js 13 using Chakra UI (Remote Zoom Class)
@@ -78,7 +78,6 @@ export default function Q2() {
             </Link>
             <Link
               color="blue.600"
-              fontSize={["xl"]}
               href="https://www.amazon.com/Designing-Prototyping-Interfaces-Figma-interactive/dp/180056418X/ref=sr_1_1_sspa"
             >
               <ListItem>
@@ -88,14 +87,12 @@ export default function Q2() {
             </Link>
             <Link
               color="blue.600"
-              fontSize={["xl"]}
               href="https://nextjs.org/docs/api-routes/introduction"
             >
               <ListItem> API Routes with Next.js (Remote Zoom Class)</ListItem>
             </Link>
             <Link
               color="blue.600"
-              fontSize={["xl"]}
               href="https://codevoweb.com/build-a-trpc-crud-api-example-with-next-js/"
             >
               <ListItem>
@@ -106,14 +103,12 @@ export default function Q2() {
 
             <Link
               color="blue.600"
-              fontSize={["xl"]}
               href="https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgres"
             >
               <ListItem> SQL and Prisma</ListItem>
             </Link>
             <Link
               color="blue.600"
-              fontSize={["xl"]}
               href="https://pragprog.com/titles/tailwind2/modern-css-with-tailwind-second-edition/"
             >
               <ListItem>
@@ -123,7 +118,6 @@ export default function Q2() {
             </Link>
             <Link
               color="blue.600"
-              fontSize={["xl"]}
               href="https://www.youtube.com/watch?v=BujE_tik5r8"
             >
               <ListItem> AWS Application Composer (Remote Zoom Class)</ListItem>

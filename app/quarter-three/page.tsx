@@ -23,18 +23,23 @@ export default function Q3() {
     <>
       <Box m="auto" py="2rem">
         <Flex
-          fontSize="xl"
+          fontSize={["sm", "lg", "xl"]}
           flexDir="column"
           justify="space-between"
           align="start"
           w="90%"
           m="auto"
         >
-          <Heading>Quarter III (Core)</Heading>
+          <Heading
+            fontSize={["lg", "2xl", "2xl", "2xl"]}
+            my={[".5rem", "1rem", "1rem", "2rem"]}
+          >
+            Quarter III (Core)
+          </Heading>
           <Text
             fontWeight={600}
             my="2rem"
-            fontSize={"2xl"}
+            fontSize={["lg", "2xl", "2xl", "2xl"]}
             w={["90%", "90%", "80%"]}
           >
             $-101: Dollar Making Bootcamp - Full-Stack Template and API Product

@@ -19,22 +19,21 @@ import {
 export default function Q4() {
   return (
     <>
-      <Box m="auto" py="2rem">
+      <Box w="100%" m="auto" py="2rem">
         <Flex
           fontSize="xl"
           minH="80vh"
           flexDir="column"
           justify="space-around"
           align="start"
-          w="90%"
-          m="auto"
+          w="100%"
         >
           <Heading>Quarter V</Heading>
           <Heading fontSize={"2xl"}>
             CN-361: Developing Multi-Cloud Apps using CDK for Terraform
           </Heading>
           <Text>Course Description:</Text>
-          <Text w={["90%", "90%", "80%"]}>
+          <Text w={["100%", "100%", "80%"]} fontSize={["md", "lg", "xl"]}>
             Cloud-native architecture and technologies are an approach to
             designing, constructing, and operating workloads that are built in
             the cloud and take full advantage of the cloud computing model.
@@ -54,7 +53,7 @@ export default function Q4() {
             Kubernetes. <br />
           </Text>
           <Text>Course outline</Text>
-          <OrderedList>
+          <OrderedList fontSize={["md", "lg", "xl"]}>
             <ListItem color="blue.600">
               Kubernetes: Up and Running: Dive into the Future of Infrastructure
               3rd Edition

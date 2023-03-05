@@ -19,22 +19,21 @@ import {
 export default function Q4() {
   return (
     <>
-      <Box m="auto" py="2rem">
+      <Box w="100%" m="auto" py="2rem">
         <Flex
           fontSize="xl"
           minH="80vh"
           flexDir="column"
           justify="space-around"
           align="start"
-          w="90%"
-          m="auto"
+          w="100%"
         >
           <Heading>Quarter V</Heading>
           <Heading fontSize={"2xl"}>
             AC-351: Ambient Computing with Voice Assistants and Matter Devices
           </Heading>
           <Text>Course Description:</Text>
-          <Text w={["90%", "90%", "80%"]}>
+          <Text w={["100%", "100%", "80%"]} fontSize={["md", "lg", "xl"]}>
             Ambient computing, also commonly referred to as ubiquitous
             computing, is the concept of blending computing power into our
             everyday lives in a way that is embedded into our surroundings -
@@ -68,7 +67,7 @@ export default function Q4() {
             <br />
           </Text>
           <Text>Course outline</Text>
-          <OrderedList>
+          <OrderedList fontSize={["md", "lg", "xl"]}>
             <ListItem color="blue.600">
               Alexa Skill Developement
               <Link

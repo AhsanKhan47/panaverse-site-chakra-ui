@@ -19,19 +19,23 @@ import {
 export default function Q1() {
   return (
     <>
-      <Box m="auto" py="2rem">
+      <Box w="100%" m="auto" py="2rem" mx="0">
         <Flex
-          fontSize="xl"
+          fontSize="sm"
           minH="80vh"
           flexDir="column"
           justify="space-around"
           align="start"
-          w="90%"
-          m="auto"
+          w="100%"
         >
-          <Heading>Quarter I (Core)</Heading>
-          <Text>Course Description:</Text>
-          <Text w={["90%", "90%", "80%"]}>
+          <Heading
+            fontSize={["md", "2xl", "2xl", "2xl"]}
+            my={[".5rem", "1rem", "1rem", "2rem"]}
+          >
+            Quarter I (Core)
+          </Heading>
+          <Text fontWeight={600}>Course Description:</Text>
+          <Text w={["100%", "100%", "80%"]} fontSize={["md", "lg", "xl"]}>
             We will start the program by learning the fundamentals of
             Object-Oriented programming using JavaScript and TypeScript. We will
             also understand the latest Web trends i.e. Web 3.0 and Metaverse
@@ -39,7 +43,7 @@ export default function Q1() {
             the users.{" "}
           </Text>
           <Text>Course outline</Text>
-          <OrderedList>
+          <OrderedList fontSize={["md", "lg", "xl"]}>
             <ListItem color="blue.600">
               <Link
                 href="https://www.youtube.com/playlist?list=PLKvqnz8z1zWQ3BALy86tIXICkG874wAc6"

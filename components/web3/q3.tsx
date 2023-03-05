@@ -19,20 +19,25 @@ import {
 export default function Q3() {
   return (
     <>
-      <Box m="auto" py="2rem">
+      <Box w="100%" m="auto" py="2rem">
         <Flex
           fontSize="xl"
+          minH="80vh"
           flexDir="column"
-          justify="space-between"
+          justify="space-around"
           align="start"
-          w="90%"
-          m="auto"
+          w="100%"
         >
-          <Heading>Quarter III (Core)</Heading>
+          <Heading
+            fontSize={["xl", "2xl", "2xl", "2xl"]}
+            my={[".5rem", "1rem", "1rem", "2rem"]}
+          >
+            Quarter III (Core)
+          </Heading>
           <Text
             fontWeight={600}
-            my="2rem"
-            fontSize={"2xl"}
+            my={["0rem", "2rem"]}
+            fontSize={["lg", "2xl", "2xl", "2xl"]}
             w={["90%", "90%", "80%"]}
           >
             $-101: Dollar Making Bootcamp - Full-Stack Template and API Product
@@ -44,7 +49,11 @@ export default function Q3() {
           </Heading>
           <Box my="3rem ">
             <Heading>A. Build Full-Stack Next.js 13 Jamstack Templates</Heading>
-            <Text w={["90%", "90%", "80%"]} my="2rem">
+            <Text
+              w={["100%", "100%", "80%"]}
+              fontSize={["md", "lg", "xl"]}
+              my="2rem"
+            >
               You will be assigned to build a template which we will sell on
               Theme Forest and Panaverse DAO marketplace. The Panaverse DAO will
               receive 25% share on the sale of the template which will be used

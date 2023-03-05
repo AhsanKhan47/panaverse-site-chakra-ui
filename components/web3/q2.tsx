@@ -19,27 +19,36 @@ import {
 export default function Q2() {
   return (
     <>
-      <Box m="auto" py="2rem">
+      <Box w="100%" m="auto" py="2rem">
         <Flex
           fontSize="xl"
+          minH="80vh"
           flexDir="column"
-          justify="space-between"
+          justify="space-around"
           align="start"
-          w="90%"
-          m="auto"
+          w="100%"
         >
-          <Heading>Quarter II (Core)</Heading>
+          <Heading
+            fontSize={["xl", "2xl", "2xl", "2xl"]}
+            my={[".5rem", "1rem", "1rem", "2rem"]}
+          >
+            Quarter II (Core)
+          </Heading>
           <Text
             fontWeight={600}
-            my="2rem"
-            fontSize={"2xl"}
+            my={["0rem", "2rem"]}
+            fontSize={["lg", "2xl", "2xl", "2xl"]}
             w={["90%", "90%", "80%"]}
           >
             W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Apps and
             APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform
           </Text>
           <Text>Course Description:</Text>
-          <Text w={["90%", "90%", "80%"]} my="2rem">
+          <Text
+            w={["100%", "100%", "80%"]}
+            fontSize={["md", "lg", "xl"]}
+            my="2rem"
+          >
             The objective of this course is to teach participants to develop
             customer-facing planet-scale Websites, Full-Stack Apps and
             templates, Dashboards, and Muti-Cloud Serverless APIs. By the end of
@@ -51,7 +60,7 @@ export default function Q2() {
             for Terraform (CDKTF).
           </Text>
           <Text>Course outline :</Text>
-          <OrderedList my="1rem">
+          <OrderedList fontSize={["md", "lg", "xl"]} my="1rem">
             <ListItem color="blue.600">
               <Link
                 href="https://www.youtube.com/playlist?list=PLKvqnz8z1zWQSWIen_zUSEBmtqzPLuRob"

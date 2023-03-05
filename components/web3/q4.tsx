@@ -19,23 +19,30 @@ import {
 export default function Q4() {
   return (
     <>
-      <Box m="auto" py="2rem">
+      <Box w="100%" m="auto" py="2rem">
         <Flex
           fontSize="xl"
           minH="80vh"
           flexDir="column"
           justify="space-around"
           align="start"
-          w="90%"
-          m="auto"
+          w="100%"
         >
-          <Heading>Quarter IV</Heading>
-          <Heading fontSize={"2xl"}>
+          <Heading
+            fontSize={["xl", "2xl", "2xl", "2xl"]}
+            my={[".5rem", "1rem", "1rem", "2rem"]}
+          >
+            Quarter IV
+          </Heading>
+          <Heading
+            fontSize={["lg", "2xl", "2xl", "2xl"]}
+            my={[".5rem", "1rem", "1rem", "2rem"]}
+          >
             AI-351: Developing Planet-Scale Intelligent APIs and Python
             Programming
           </Heading>
-          <Text>Course Description:</Text>
-          <Text w={["90%", "90%", "80%"]}>
+          <Text fontWeight={600}>Course Description:</Text>
+          <Text w={["100%", "100%", "80%"]} fontSize={["md", "lg", "xl"]}>
             Artificial intelligence is the simulation of human intelligence
             processes by machines, especially computer systems. The AI and Deep
             Learning Specialization is a foundational program that will aid in
@@ -57,8 +64,8 @@ export default function Q4() {
             system. We will also review Git-based GitHub services.
           </Text>
           <Text>Course outline</Text>
-          <OrderedList>
-            <ListItem color="blue.600">
+          <OrderedList fontSize={["md", "lg", "xl"]}>
+            <ListItem color="blue.600" my={[".5rem", "1rem", "1rem", "2rem"]}>
               Introduction to Machine Learning, Data Science, and AI
               <Link
                 href="https://www.coursera.org/learn/ai-for-everyone 
@@ -66,7 +73,7 @@ export default function Q4() {
                 textDecor="underline"
                 fontWeight={700}
                 color="blue.600"
-                fontSize={["xl"]}
+                fontSize={["md", "lg", "xl"]}
               >
                 AI for Everyone
               </Link>{" "}
@@ -88,7 +95,7 @@ export default function Q4() {
               Introduction to Programming 2nd Edition
               <Link
                 color="blue.600"
-                fontSize={["xl"]}
+                fontSize={["md", "lg", "xl"]}
                 href="https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=sr_1_5"
               >
                 {" "}

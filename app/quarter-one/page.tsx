@@ -1,36 +1,33 @@
 "use client";
 import React from "react";
 import {
-  useColorMode,
-  Switch,
   Flex,
-  Button,
-  IconButton,
   Box,
   Link,
   Text,
-  Center,
-  Spacer,
   Heading,
   ListItem,
   OrderedList,
-  Image,
-  Container,
 } from "@chakra-ui/react";
 export default function Q1() {
   return (
     <>
-      <Box h="100vh" m="auto">
+      <Box w="100%" h="100vh" m="auto">
         <Flex
-          fontSize="xl"
+          fontSize={["sm", "lg", "xl"]}
           minH="80vh"
           flexDir="column"
           justify="space-around"
           align="start"
-          w="90%"
+          w="100%"
           m="auto"
         >
-          <Heading>Quarter I (Core)</Heading>
+          <Heading
+            fontSize={["xl", "2xl", "2xl", "2xl"]}
+            my={[".5rem", "1rem", "1rem", "2rem"]}
+          >
+            Quarter I (Core)
+          </Heading>
           <Text>Course Description:</Text>
           <Text w={["90%", "90%", "80%"]}>
             We will start the program by learning the fundamentals of

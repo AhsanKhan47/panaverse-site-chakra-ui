@@ -1,9 +1,10 @@
 "use client";
 
-import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider, Box } from "@chakra-ui/react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import "../app/globals.css";
 export default function RootLayout({
   children,
 }: {
@@ -18,9 +19,11 @@ export default function RootLayout({
       <head />
       <body>
         <ChakraProvider>
-          <Navbar />
-          {children}
-          <Footer />
+          <Box overflowX="hidden">
+            <Navbar />
+            {children}
+            <Footer />
+          </Box>
         </ChakraProvider>
       </body>
     </html>

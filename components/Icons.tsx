@@ -28,24 +28,27 @@ export default function Social() {
         fontSize={["30px", "40px"]}
         gap={["1rem", "0"]}
       >
-        <Link href="https://twitter.com/Panaverse_edu">
+        <Link href="https://www.facebook.com/groups/panaverse" target="_blank">
           {" "}
           <AiFillFacebook />{" "}
         </Link>
 
-        <Link href="https://twitter.com/Panaverse_edu">
+        <Link href="https://www.instagram.com/piaicofficial/" target="_blank">
           {" "}
           <FaInstagramSquare />
         </Link>
-        <Link href="https://twitter.com/Panaverse_edu">
+        <Link href="https://github.com/panaverse" target="_blank">
           {" "}
           <AiFillGithub />
         </Link>
-        <Link href="https://twitter.com/Panaverse_edu">
+        <Link
+          href="https://www.youtube.com/@panaverse/featured"
+          target="_blank"
+        >
           {" "}
           <FaYoutube />
         </Link>
-        <Link href="https://twitter.com/Panaverse_edu">
+        <Link href="https://twitter.com/Panaverse_edu" target="_blank">
           {" "}
           <AiFillTwitterSquare />
         </Link>

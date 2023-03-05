@@ -19,45 +19,51 @@ import {
 export default function Q5() {
   return (
     <>
-      <Box m="auto" py="2rem">
+      <Box w="100%" m="auto" py="2rem">
         <Flex
           fontSize="xl"
           minH="80vh"
           flexDir="column"
           justify="space-around"
           align="start"
-          w="90%"
-          m="auto"
+          w="100%"
         >
-          <Heading>Quarter V</Heading>
-          <Heading fontSize={"2xl"} my={8} w="90%">
-            MV-361: Developing Planet-Scale Open Virtual and Augmented Metaverse
-            Experiences
-          </Heading>
-          <Text fontWeight={600}>Duration: 13 Weeks</Text>
-          <Text fontWeight={600}>Course Description:</Text>
-          <Text w={["90%", "90%", "90%"]} my={4}>
-            The Web is the Metaverse. The metaverse requires an infrastructure
-            that connects all of the metaverses so that we can travel between
-            them. This is only achievable with open web-based metaverses. The
-            internet and its browsers are magical. Federated but linked
-            experiences connect pages, people, technology, businesses,
-            standards, and nations. It's unlike anything else. The metaverse
-            should replicate the best qualities of the web - it should just be
-            the web. We just have to extend online responsive design from mobile
-            to desktop to 3D, Augmented Reality, and Virtual Reality. This
-            course will teach you how to build the Open Social Spatial Web with
-            WebXR and WebGPU technologies.
-          </Text>
-          <Text>Course outline</Text>
-          <OrderedList>
+          <Box>
+            <Heading>Quarter V</Heading>
+            <Heading
+              fontSize={["lg", "2xl", "2xl", "2xl"]}
+              my={[".5rem", "1rem", "1rem", "2rem"]}
+              w="90%"
+            >
+              MV-361: Developing Planet-Scale Open Virtual and Augmented
+              Metaverse Experiences
+            </Heading>
+            <Text fontWeight={600}>Duration: 13 Weeks</Text>
+            <Text fontWeight={600}>Course Description:</Text>
+            <Text w={["100%", "100%", "80%"]} fontSize={["md", "lg", "xl"]}>
+              The Web is the Metaverse. The metaverse requires an infrastructure
+              that connects all of the metaverses so that we can travel between
+              them. This is only achievable with open web-based metaverses. The
+              internet and its browsers are magical. Federated but linked
+              experiences connect pages, people, technology, businesses,
+              standards, and nations. It's unlike anything else. The metaverse
+              should replicate the best qualities of the web - it should just be
+              the web. We just have to extend online responsive design from
+              mobile to desktop to 3D, Augmented Reality, and Virtual Reality.
+              This course will teach you how to build the Open Social Spatial
+              Web with WebXR and WebGPU technologies.
+            </Text>
+            <Text>Course outline</Text>
+          </Box>
+
+          <OrderedList fontSize={["md", "lg", "xl"]}>
             <ListItem color="blue.600">
               <Link
                 href="https://github.com/panaverse/metaverse-web"
                 textDecor="underline"
                 fontWeight={700}
                 color="blue.600"
-                fontSize={["xl"]}
+                fontSize={["md", "lg", "xl"]}
               >
                 Open Metaverse Web Development
               </Link>{" "}
