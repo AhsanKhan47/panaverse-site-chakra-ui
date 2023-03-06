@@ -141,7 +141,7 @@ export default function Footer() {
         <Divider w="90%" m="auto" />
         <Center>
           <Box m="auto" mt={["2rem"]}>
-            <Social />
+            {/* <Social /> */}
           </Box>
         </Center>
         <Center>
