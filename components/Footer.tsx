@@ -2,16 +2,9 @@
 import React from "react";
 import Social from "../components/Icons";
 
-import {
-  Flex,
-  Box,
-  Text,
-  Center,
-  Link,
-  Divider,
-  VStack,
-} from "@chakra-ui/react";
+import { Flex, Box, Text, Center, Divider, VStack } from "@chakra-ui/react";
 import Image from "next/image";
+import Link from "next/link";
 import { RevealWrapper } from "next-reveal";
 
 export default function Footer() {
@@ -55,28 +48,28 @@ export default function Footer() {
                 Courses
               </Text>
               <Link
-                _hover={{
-                  color: "green.500",
-                  textDecoration: "underline",
-                }}
+                // _hover={{
+                //   color: "green.500",
+                //   textDecoration: "underline",
+                // }}
                 href={`#aboutProgram`}
               >
                 About Program
               </Link>
               <Link
-                _hover={{
-                  color: "green.500",
-                  textDecoration: "underline",
-                }}
+                // _hover={{
+                //   color: "green.500",
+                //   textDecoration: "underline",
+                // }}
                 href={`#Syllabus`}
               >
                 Syllabus
               </Link>
               <Link
-                _hover={{
-                  color: "green.500",
-                  textDecoration: "underline",
-                }}
+                // _hover={{
+                //   color: "green.500",
+                //   textDecoration: "underline",
+                // }}
                 href={`/wmd`}
               >
                 Home
@@ -91,46 +84,46 @@ export default function Footer() {
               </Text>
 
               <Link
-                _hover={{
-                  color: "green.500",
-                  textDecoration: "underline",
-                }}
+                // _hover={{
+                //   color: "green.500",
+                //   textDecoration: "underline",
+                // }}
                 href={`/wmd`}
               >
                 Web 3.0 and Metaverse{" "}
               </Link>
               <Link
-                _hover={{
-                  color: "green.500",
-                  textDecoration: "underline",
-                }}
+                // _hover={{
+                //   color: "green.500",
+                //   textDecoration: "underline",
+                // }}
                 href={`/ai`}
               >
                 Artificial Intelligence and Deep Learning
               </Link>
               <Link
-                _hover={{
-                  color: "green.500",
-                  textDecoration: "underline",
-                }}
+                // _hover={{
+                //   color: "green.500",
+                //   textDecoration: "underline",
+                // }}
                 href={`/cnac`}
               >
                 Cloud-Native Computing
               </Link>
               <Link
-                _hover={{
-                  color: "green.500",
-                  textDecoration: "underline",
-                }}
+                // _hover={{
+                //   color: "green.500",
+                //   textDecoration: "underline",
+                // }}
                 href={`/aciot`}
               >
                 Ambient Computing and IoT
               </Link>
               <Link
-                _hover={{
-                  color: "green.500",
-                  textDecoration: "underline",
-                }}
+                // _hover={{
+                //   color: "green.500",
+                //   textDecoration: "underline",
+                // }}
                 href={`/gb`}
               >
                 Genomics and Bioinformatics
@@ -141,7 +134,7 @@ export default function Footer() {
         <Divider w="90%" m="auto" />
         <Center>
           <Box m="auto" mt={["2rem"]}>
-            {/* <Social /> */}
+            <Social />
           </Box>
         </Center>
         <Center>

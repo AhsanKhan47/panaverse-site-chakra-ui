@@ -50,7 +50,7 @@ export default function Hero() {
           >
             View Courses
           </Button>
-          {/* <Social /> */}
+          <Social />
         </RevealWrapper>
       </Box>
 
