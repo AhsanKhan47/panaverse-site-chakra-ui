@@ -1,20 +1,13 @@
 import React from "react";
 import {
-  useColorMode,
-  Switch,
   Flex,
   Button,
-  IconButton,
   Box,
   Link,
   Text,
-  Center,
-  Spacer,
   Heading,
   ListItem,
   OrderedList,
-  Image,
-  Container,
 } from "@chakra-ui/react";
 export default function Q4() {
   return (
