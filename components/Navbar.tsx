@@ -6,14 +6,11 @@ import {
   Box,
   Text,
   Spacer,
-  Fade,
   Link,
-  Collapse,
   useDisclosure,
 } from "@chakra-ui/react";
-import { ScaleFade, Slide, SlideFade } from "@chakra-ui/react";
+import { Slide } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import { useState } from "react";
 import Image from "next/image";
 
 export default function Navbar() {
@@ -21,12 +18,15 @@ export default function Navbar() {
   return (
     <Box as="nav" m={[".5rem", "1rem", "1rem", "1rem"]} shadow="md">
       <Flex w="90%" h={16} m="auto" align="center" justify="space-between">
-        <Image
-          height={90}
-          width={90}
-          alt="panaverselogo"
-          src={`/red-p-logo-text_dao_croped.png`}
-        />
+        <Link href="/">
+          {" "}
+          <Image
+            height={90}
+            width={90}
+            alt="panaverselogo"
+            src={`/red-p-logo-text_dao_croped.png`}
+          />
+        </Link>
         <Spacer />
         <Flex display={["none", "none", "flex", "flex"]} justifySelf="right">
           <Link _hover={{ color: "green.500" }} href={"/"}>
