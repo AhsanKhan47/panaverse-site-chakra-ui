@@ -65,7 +65,7 @@ export default function Hero() {
 
           alt="panaverselogo"
 
-          src={`/red-p-logo.png`}
+          src={`/red-p-logo-2.png`}
 
           zIndex={10}
 
