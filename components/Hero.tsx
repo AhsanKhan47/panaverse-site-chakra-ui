@@ -54,7 +54,7 @@ export default function Hero() {
         <Image
           objectFit="cover"
           alt="panaverselogo"
-          src={`/p-logo.png`}
+          src={`/panaverse-logo.png`}
           zIndex={10}
         />
       </Box>
