@@ -13,7 +13,7 @@ export default function Hero() {
       flexDir={["column-reverse", "column-reverse", "row"]}
       align="flex-start"
       justify="space-between"
-      mt={["2", "4", "0", "0"]}
+      mt={["4rem", "4", "0", "0"]}
     >
       <Box
         w={["100%", "100%", "60%", "60%"]}
