@@ -51,7 +51,7 @@ export default function Hero() {
 
         w={["40%", "40%", "30%", "20%"]}
 
-        mt="4"
+        mt={["3rem","2rem","0rem"]}
 
         m={["auto"]}
 
