@@ -47,8 +47,9 @@ export default function Hero() {
 
       <Box
         w={["40%", "40%", "30%", "20%"]}
-        mt={["3rem","2rem","1rem"]}
+        
         m={["auto"]}
+        mt={["3rem","2rem","1rem"]}
         mb={["0", "auto"]}
       >
         <Image
