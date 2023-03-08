@@ -1,4 +1,4 @@
-Koimport React from "react";
+import React from "react";
 
 import { Flex, Button, Box, Heading, Image } from "@chakra-ui/react";
 import Social from "../components/Icons";
