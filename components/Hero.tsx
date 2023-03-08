@@ -47,7 +47,7 @@ export default function Hero() {
 
       <Box
         w={["40%", "40%", "30%", "20%"]}
-        mt="4"
+        mt={["12","8","4"]}
         m={["auto"]}
         mb={["0", "auto"]}
       >
