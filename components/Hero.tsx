@@ -1,4 +1,4 @@
-import React from "react";
+Koimport React from "react";
 
 import { Flex, Button, Box, Heading, Image } from "@chakra-ui/react";
 import Social from "../components/Icons";
@@ -54,7 +54,7 @@ export default function Hero() {
         <Image
           objectFit="cover"
           alt="panaverselogo"
-          src={`/logos/red-p-logo.png`}
+          src={`/panaverse_transparent_small.png`}
           zIndex={10}
         />
       </Box>
