@@ -45,19 +45,32 @@ export default function Hero() {
         <Social />
       </Box>
 
+      
+
       <Box
+
         w={["40%", "40%", "30%", "20%"]}
-        
+
+        mt="4"
+
         m={["auto"]}
-        mt={4}
+
         mb={["0", "auto"]}
+
       >
+
         <Image
+
           objectFit="cover"
+
           alt="panaverselogo"
-          src={`/panaverse-logo.png`}
+
+          src={`/logos/red-p-logo.png`}
+
           zIndex={10}
+
         />
+
       </Box>
     </Flex>
   );
