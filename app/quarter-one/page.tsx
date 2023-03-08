@@ -19,7 +19,7 @@ export default function Q1() {
           flexDir="column"
           justify="space-around"
           align="start"
-          w="100%"
+          w="90%"
           m="auto"
         >
           <Heading

@@ -13,8 +13,6 @@ import {
   Heading,
   ListItem,
   OrderedList,
-  Image,
-  Container,
 } from "@chakra-ui/react";
 export default function Q4() {
   return (

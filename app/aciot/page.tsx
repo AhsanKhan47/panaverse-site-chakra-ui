@@ -9,7 +9,7 @@ import Q5 from "@/components/aciot/q5";
 export default function Ai() {
   return (
     <>
-      <Tabs w="100%" m="auto">
+      <Tabs w="90%" m="auto">
         <TabList>
           <Tab fontSize={["12px", "19px"]} p={["9px", "1rem"]}>
             Quarter 1
