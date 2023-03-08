@@ -50,7 +50,7 @@ export default function Hero() {
         
         m={["auto"]}
         mt={["3rem","2rem","1rem"]}
-        mb={["0", "auto"]}
+        mb={[ "auto"]}
       >
         <Image
           objectFit="cover"
