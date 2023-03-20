@@ -13,7 +13,7 @@ export default function Hero() {
       flexDir={["column-reverse", "column-reverse", "row"]}
       align="flex-start"
       justify="space-between"
-      mt={["2", "4", "0", "0"]}
+      mt={["4rem", "4", "0", "0"]}
     >
       <Box
         w={["100%", "100%", "60%", "60%"]}
@@ -45,18 +45,32 @@ export default function Hero() {
         <Social />
       </Box>
 
+      
+
       <Box
+
         w={["40%", "40%", "30%", "20%"]}
+
         mt="4"
+
         m={["auto"]}
+
         mb={["0", "auto"]}
+
       >
+
         <Image
+
           objectFit="cover"
+
           alt="panaverselogo"
-          src={`/logos/red-p-logo.png`}
+
+          src={`/red-p-logo-2.png`}
+
           zIndex={10}
+
         />
+
       </Box>
     </Flex>
   );
