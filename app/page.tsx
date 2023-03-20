@@ -1,6 +1,6 @@
 "use client";
 import Hero from "@/components/Hero";
-import Syllabus from "@/components/CoreCourse";
+import CoreSyllabus from "@/components/CoreCourse";
 import Outcome from "@/components/outcome";
 import Courses from "@/components/courses";
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Hero />
       <Outcome />
-      <Syllabus />
+      <CoreSyllabus />
       <Courses />
     </div>
   );

@@ -3,7 +3,7 @@ import { card } from "./syllabusData";
 import { Flex, Button, Box, Text, Heading, Container } from "@chakra-ui/react";
 import Link from "next/link";
 
-export default function Syllabus() {
+export default function CoreSyllabus() {
   return (
     <>
       <Flex

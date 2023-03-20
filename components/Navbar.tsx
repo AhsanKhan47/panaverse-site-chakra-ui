@@ -88,15 +88,19 @@ export default function Navbar() {
               fontSize={["lg"]}
               fontWeight="600"
             >
-              <Link _hover={{ color: "green.500" }} href={"/"}>
+              <Link _hover={{ color: "white" }} href={"/"}>
                 Home
               </Link>
-              <Link _hover={{ color: "green.500" }} href={"#aboutProgram"}>
+              <Link
+                _hover={{ color: "white" }}
+                href={"#aboutProgram"}
+                onClick={onToggle}
+              >
                 {" "}
                 About Program
               </Link>
               <Link
-                _hover={{ color: "green.500" }}
+                _hover={{ color: "white" }}
                 href="#Syllabus"
                 onClick={onToggle}
               >
