@@ -14,13 +14,13 @@ export default function Footer() {
         gap={6}
         w="90%"
         m="auto"
-        p={["2rem"]}
-        align={["self-start", "self-start", "center"]}
+        p={["0", "2rem"]}
+        align={["self-start", "self-start", "self-start"]}
         justify="center"
         flexDir={["column", "column", "row"]}
       >
         {" "}
-        <Box w={["90%", "40%"]}>
+        <Box w={["90%", "90%", "90%", "40%"]}>
           <VStack align={["start", "self-start"]}>
             <Image
               height={150}
@@ -120,7 +120,9 @@ export default function Footer() {
       </Center>
       <Center>
         {" "}
-        <Text mb={["2rem"]}>© Panaverse All rights reserved</Text>
+        <Text mb={["2rem"]}>
+          © <strong>Panaverse</strong> All rights reserved
+        </Text>
       </Center>
     </Box>
   );

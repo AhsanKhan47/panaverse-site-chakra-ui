@@ -1,11 +1,11 @@
 "use client";
+import React from "react";
 import Q2 from "@/components/web3/q2";
 import Q3 from "@/components/web3/q3";
-import React from "react";
-import Q1 from "../quarter-one/page";
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
+import Q1 from "@/components/web3/q1";
 import Q4 from "@/components/cnac/q4";
 import Q5 from "@/components/cnac/q5";
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 export default function Ai() {
   return (
     <>

@@ -11,6 +11,7 @@ export default function CoreSyllabus() {
         minH="100vh"
         flexDir="column"
         id="Syllabus"
+        pb={16}
       >
         <Box width="90%" m="auto">
           <Heading
@@ -50,6 +51,7 @@ export default function CoreSyllabus() {
                 px={["4"]}
                 py={["3rem"]}
                 key={data.id}
+                alignSelf="end"
               >
                 <Heading>{data.heading}</Heading>
                 <Text fontSize={["2xl"]} fontWeight={400}>
@@ -61,6 +63,8 @@ export default function CoreSyllabus() {
                     mt={6}
                     _hover={{ bg: "green.500", color: "white" }}
                     size={["md", "lg"]}
+                    border="2px"
+                    borderColor="green.500"
                   >
                     Learn more
                   </Button>
